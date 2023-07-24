@@ -438,6 +438,13 @@ button:focus {
   border-radius: 100%;
   text-align: center;
   box-shadow: 5px 5px 0px 0px var(--color-accent);
+  visibility: hidden;
+  transition: all 250ms ease-in;
+  opacity: 0;
+}
+.arrow-up-visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Footer */
