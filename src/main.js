@@ -22,3 +22,13 @@ document.addEventListener("scroll", () => {
     arrow.classList.remove("arrow-up-visible");
   }
 });
+
+const navbarMenu = document.querySelector(".header__menu");
+const navbarToggle = document.querySelector(".header__toggle");
+navbarToggle.addEventListener("click", () => {
+  navbarMenu.classList.toggle("open");
+});
+
+navbarMenu.addEventListener("click", () => {
+  navbarMenu.classList.remove("open");
+});
